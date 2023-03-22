@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.border_ima{
+    width: 500px;
+    height: 250px;
+    border: 3px solid white;
+    background: black;
+    position: relative;
+}
+img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+button{
+    position: absolute;
+    border: none;
+    outline: none;
+    background: blue;
+    width: 174px;
+    height: 46px;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.border_ima:hover img{
+    filter: brightness(30%);
+    transition: all 1s ease;
+}
+.border_ima:hover button{
+    opacity: 1;
+}

@@ -1,0 +1,31 @@
+*{
+    font-family: Arial;
+    font-size: 16px;
+    color: #222;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1677196728306-eeafea692454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    width: 99%;
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.border{
+    background-color: rgba(80, 120, 250, 0.5);
+    width: 400px;
+    height: 250px;
+    border: 3px dashed black;
+    /*chỉnh border đúng kích thước */
+    box-sizing: border-box;
+}
+#name{
+    color: rgb(80, 255, 85);
+    text-align: center;
+    padding: 100px 0;
+    text-decoration: line-through red double;
+}
+.link{   
+    color: #ff0000;
+    text-decoration: none;
+}
